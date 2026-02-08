@@ -19,7 +19,7 @@ const LoginPage = (props) => {
     password: '',
   };
 
-  const [loginForm, setLoginForm] = useState(initialState);
+  const [Form, setForm] = useState(initialState);
   const [errorForm, setErrorForm] = useState(errorState);
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -79,9 +79,9 @@ const LoginPage = (props) => {
 
       <div className={styles.root}>
         <div className={styles.loginFormContainer}>
-          <h1 className={styles.loginTitle}>Login</h1>
+          <h1 className={styles.loginTitle}>Login to Minisip</h1>
           <span className={styles.subtitle}>
-            Please enter your e-mail and password
+            Welcome back! Login to your Minisip account
           </span>
           <form
             noValidate
