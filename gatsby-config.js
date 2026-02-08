@@ -1,7 +1,5 @@
-module.exports = {
-  siteMetadata: {
-    title: `Gatsby Sydney Ecommerce Theme`,
-    siteUrl: `https://jamm.matter.design`,
-  },
-  plugins: [],
-};
+siteMetadata: {
+  title: "Minisip",
+  description: "Baby bottles and feeding essentials",
+  siteUrl: "https://minisip.in",
+}
